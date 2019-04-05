@@ -1,6 +1,5 @@
 #!/bin/bash
 
-https=""
 if [ -n "$3" ]; then
   https="
     ssl on;
@@ -12,7 +11,7 @@ if [ -n "$3" ]; then
      ssl_protocols TLSv1 TLSv1.1 TLSv1.2;
      ssl_prefer_server_ciphers on;
 
-    if (\$scheme != "https") {
+    if (\$scheme != \"https\") {
          return 301 https://\$host\$request_uri;
     }
 
@@ -46,7 +45,7 @@ block="server {
     access_log /var/log/nginx/$1.access.log;
     error_log  /var/log/nginx/$1.error.log;
     client_max_body_size 200M;
-    
+
     $https
 
 }
