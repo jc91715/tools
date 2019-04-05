@@ -11,3 +11,8 @@ php data_structure_to_md.php ./xxx.sql //./xxx.sql文件路径 在当前文件�
 ```
 php ranking.php
 ```
+##  生成Laravel nginx配置文件
+默认http配置 传递第三个参数生成https配置，先下载ssl文件至 相对应目录
+```
+./laravel_nginx.sh www.xxx.dom root 1 //www.xxx.dom域名 root项目根目录
+```
