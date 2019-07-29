@@ -75,7 +75,7 @@ function line($positions,$startDot,$placedDot,$notPlacedDot,$n){
 
     $placedDot[]=$nextDot;
 
-   if($nextDot[0]>=19&&$nextDot[1]>0&&$nextDot[1]<=19){
+   if($nextDot[0]>=$n&&$nextDot[1]>0&&$nextDot[1]<=$n){
        return $placedDot;
    }
    return line($positions,$nextDot,$placedDot,$notPlacedDot,$n);
