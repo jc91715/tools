@@ -16,3 +16,8 @@ php ranking.php
 ```
 ./laravel_nginx.sh www.xxx.dom root 1 //www.xxx.dom域名 root项目根目录
 ```
+## 生成人造迷宫路线
+
+```
+php maze.php //输出表格路线
+```
