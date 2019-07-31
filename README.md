@@ -21,3 +21,8 @@ php ranking.php
 ```
 php maze.php //输出表格路线
 ```
+## 文字转点阵
+
+```
+php wenzi_to_dianzhen.php //输出表格路线
+```
