@@ -21,6 +21,11 @@ php ranking.php
 ```
 php maze.php //输出表格路线
 ```
+## 解迷宫路线迷宫路线之H最小
+
+```
+php  solute_maze.php 
+```
 ## 文字转点阵
 
 ```
