@@ -26,6 +26,14 @@ php maze.php //输出表格路线
 ```
 php  solute_maze.php 
 ```
+
+## 解迷宫路线迷宫路线之G+H最小 ,会有绕远路的问题
+
+```
+```
+php  solute_maze_gh.php 
+```
+```
 ## 文字转点阵
 
 ```
